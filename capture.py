@@ -8,7 +8,7 @@ from picamera import PiCamera
 import toml
 import dropbox
 
-with open('config.toml', 'r') as fo:
+with open('/home/pi/timelapse/config.toml', 'r') as fo:
     config = toml.load(fo)
 
 LOG_PATH = '/home/pi/timelapse/log/camera.log'
