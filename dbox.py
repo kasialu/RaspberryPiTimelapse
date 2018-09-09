@@ -29,6 +29,6 @@ if __name__ == '__main__':
 
     mode = dropbox.files.WriteMode.overwrite
 
-    fname = 'img_2018-09-08T21_14_09.025117.jpg'
+    fname = 'img_2018-09-09T11:55:03.487145.jpg'
 
     send_to_dropbox(fname)

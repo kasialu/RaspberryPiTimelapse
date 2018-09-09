@@ -9,6 +9,8 @@ python_version = "3.5"
 [packages]
 "0867da8" = {path = "./../devel/dropbox-sdk-python"}
 toml = "*"
+requests = "*"
+six = "*"
 
 [dev-packages]
 ipython = "*"
