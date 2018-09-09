@@ -15,6 +15,7 @@ and run
 ```bash
 python capture.py
 ```
+to stop the process press ``ctrl+c``
 
 ## Service
 
