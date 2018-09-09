@@ -1,5 +1,16 @@
 # Raspberry Pi Camera Timelapse
 
+## Run locally
+
+To run the script go to the directory containing the code:
+```bash
+cd ~/timelapse
+``` 
+and run
+```bash
+python capture.py
+```
+
 ## Service
 
 To enable timelapse script on boot create a service by copying ``timelapse.servise`` to
