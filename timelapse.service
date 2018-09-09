@@ -1,0 +1,10 @@
+[Unit]
+Description=PiCamera Timelapse Capture
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/timelapse/capture.py
+
+[Install]
+WantedBy=multi-user.target
