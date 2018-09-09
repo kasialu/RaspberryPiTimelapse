@@ -6,6 +6,11 @@ To run the script go to the directory containing the code:
 ```bash
 cd ~/timelapse
 ``` 
+create environment 
+```bash
+pipenv shell
+``` 
+
 and run
 ```bash
 python capture.py
