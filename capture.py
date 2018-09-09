@@ -30,8 +30,8 @@ def send_to_dropbox(fpath, destination):
 
 	try:
 		res = dbx.files_upload(data, '{}/{}'.format(destination, fname))
-	except dropbox.exceptions.ApiError as e:
-		logging.error(str(e))
+	except Exception as e:
+		logging.error('Exception occured: {}'.format(str(e)))
 
 
 if __name__ == '__main__':
